@@ -1,0 +1,90 @@
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #e5e7eb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    background-color: #1f2937;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    width: 66px;
+    height: 55px;
+    padding: 15px;
+    margin: 0 3px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #374151;
+    color: white;
+}
+
+.button:hover {
+    background-color: #4b5563;
+}
+
+.row {
+    margin: 6px 0;
+}
+
+.row input {
+    width: 291px;
+    height: 60px;
+    font-size: 25px;
+    text-align: right;
+    margin: 0;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: #111827;
+    color: white;
+}
+
+.row:first-of-type .button {
+    background-color: #6b7280;
+    font-size: 15px;
+}
+
+.row:nth-of-type(3) .button:nth-child(4),
+.row:nth-of-type(4) .button:nth-child(4),
+.row:nth-of-type(5) .button:nth-child(4),
+.row:nth-of-type(6) .button:nth-child(4) {
+    background-color: #f59e0b;
+}
+
+.row:last-of-type .button:last-child {
+    background-color: #10b981;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.item-center {
+    align-items: center;
+}
